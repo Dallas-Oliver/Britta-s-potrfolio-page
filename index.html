@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis|Noto+Sans+KR:300"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Cabin+Condensed|Indie+Flower|Josefin+Slab|Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img class="icon" src="britta.png" onclick="returnHome()" />
+        <nav class="nav-bar">
+          <p id="about" onclick="changeView()" class="nav-item">about</p>
+          <p id="contact-me" class="nav-item">contact</p>
+        </nav>
+      </div>
+
+      <div class="gallery active">
+        <img
+          class="gallery-image"
+          src="hand_light.jpg"
+          alt="hand in sunlight"
+          onclick="showEnlargedImage('hand_light.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="sleeping_em.jpg"
+          alt="girl sleeping in the grass"
+          onclick="showEnlargedImage('sleeping_em.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="houseplant.jpg"
+          alt="houseplant"
+          onclick="showEnlargedImage('houseplant.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="flowers_and_moss.jpg"
+          alt="small flowers and moss"
+          onclick="showEnlargedImage('flowers_and_moss.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="plant_room.jpg"
+          alt="room full of houseplants"
+          onclick="showEnlargedImage('plant_room.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="britt_self2.jpg"
+          alt="beautiful girl staring at you"
+          onclick="showEnlargedImage('topless_britt2.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="tall_grasses_and_em.jpg"
+          alt="girl standing in front of tall grasses"
+          onclick="showEnlargedImage('tall_grasses_and_em.jpg')"
+        />
+        <img
+          class="gallery-image"
+          src="britt_self.jpg"
+          alt="beautiful girl"
+          onclick="showEnlargedImage('topless_britt.jpg')"
+        />
+
+        <img
+          class="gallery-image"
+          src="reaching_em.jpg"
+          alt="girl reaching for fruit in tree"
+          onclick="showEnlargedImage('reaching_em.jpg')"
+        />
+      </div>
+      <div class="showcase hide">
+        <!-- <i class="fas fa-chevron-left"></i> -->
+        <img class="showcase-image" src="" onclick="returnHome()" />
+        <!-- <i class="fas fa-chevron-right"></i> -->
+      </div>
+      <div class="about-section active">
+        <p class="about-text">
+          Britta is a Michigan based Photographer, Videographer, actress and
+          model<br />
+          working on dark and dreamy portraiture, as well as acting in short
+          films.<br />Her primary platform is Instagram Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. <br />Inventore dolor delectus
+          expedita id atque hic alias ipsum, perferendis quasi assumenda ad<br />
+          esse tenetur eligendi aspernatur animi repellat, ex, qui at?
+        </p>
+
+        <img class="bee" src="bee.png" />
+      </div>
+    </div>
+
+    <script src="main.js" async defer></script>
+  </body>
+</html>
